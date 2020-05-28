@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>iOS Revocation protection</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+</head>
+<body>
+<h2><a class="active"><a href="index.html">Home</a></h2>
+<h3>iOS Revocation protection</h3>
+
+<h2>Please follow these steps to protect your device from revocation.</h2>
+<p>
+
+<ol>
+    <li>Install AdGuard Pro <a href="https://itunes.apple.com/app/apple-store/id1126386264?mt=8" target="_blank">from AppStore</a></a>.
+      
+    <li>Open application and set "Privacy" setting On. Install VPN profile<br><br>#Step 1<br></li>
+    <li>Then, go back to app and scroll down to "Advanced Settings"<br><br>#Step 2<br></li>
+    <li>In Advanced Settings, check "Full Tunnel" and "Restart when network changes"<br><br>#Step 3<br></li>
+    <li>Then, go back to app and scroll to "Privacy Settings"<br><br>#Step 4<br></li>
+    <li>In Privacy Settings, in "Blacklist" add the following<br/><textarea style="width: 60%;" onclick="this.select();">2a04:52c0:101:1cd::d3c8 ocsp.apple.com
+5.2.76.189 ocsp.apple.com
+2a04:52c0:101:1cd::d3c8 world-gen.g.aaplimg.com
+5.2.76.189 world-gen.g.aaplimg.com
+
+</textarea><br/>(copy&amp;paste it)<br><br>
+
+<h2 id="jailbreak-mode">If you are jailbroken</h2>
+
+<p>Add the following<br>
+    <br/><textarea style="width: 60%;" onclick="this.select();">2a04:52c0:101:1cd::d3c8 ocsp.apple.com
+5.2.76.189 ocsp.apple.com
+2a04:52c0:101:1cd::d3c8 world-gen.g.aaplimg.com
+5.2.76.189 world-gen.g.aaplimg.com
+
+</textarea><br/>(copy&amp;paste it) <br>to your <strong>/etc/hosts</strong> file,  don't forget to keep empty line after it!</p>
+</body>
+</html>
